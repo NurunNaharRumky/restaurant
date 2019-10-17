@@ -1,0 +1,331 @@
+@font-face{
+	font-family:Cubano-Regular;
+	src:url(../fonts/Cubano-Regular.otf);
+}
+@font-face{
+	font-family:Brandon_reg;
+	src:url(../fonts/Brandon_reg.otf);
+}
+@font-face{
+	font-family:Brandon-light;
+	src:url(../fonts/Brandon-light.woff);
+}
+@font-face{
+	font-family:Brandon_med;
+	src:url(../fonts/Brandon_med.otf);
+}
+@font-face{
+	font-family:Brandon_bld;
+	src:url(../fonts/Brandon_bld.otf);
+}
+body{
+	font-family:Brandon_reg;
+	overflow-x: hidden;
+}
+/*Header starts*/
+header{
+	background-image: url(../images/bannar.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    padding-top: 30px;
+    padding-bottom: 300px;
+}
+#logoup{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.logo{
+    font-family: Cubano-Regular;
+    font-size: 26px;
+    letter-spacing: 2px;
+    color: white;
+    display: inline-block;
+    margin-top: 2px;
+}
+
+.menu ul li a{
+	text-decoration: none;
+    font-family: Brandon_med;
+    font-size: 20px;
+    color: white !important;	
+	padding: 0px 30px !important;
+	text-align: right;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+.menu ul li:hover a{
+	transition: .10s;
+	color: yellow !important;
+}
+.text{
+	margin-top: 115px;
+	margin-bottom: 60px;
+}
+.text h1{
+    font-family: Brandon-light;
+    padding-top: 100px;
+    font-weight: 400;
+    font-size: 50px !important;
+    color: white !important;
+    padding-top: 50px;
+}
+.text p{
+    font-family: Brandon_bld;
+    font-weight: 400;
+    font-size: 20px !important;
+    color: white !important;
+    margin-top: 20px;
+}
+.l_m{
+	text-align: center;
+}
+.l_m a .btn-custom{
+	font-family: Brandon_bld;
+    font-size: 20px;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+	text-align: center;
+    background: transparent;
+    border-radius: 5%;
+    cursor: pointer;
+    padding: 15px 50px;
+    border: 3px solid white;
+}
+.l_m a:hover .btn-custom{
+	transition: .10s;
+	color: yellow;
+	border-color: yellow ;
+}
+/*Header ends*/
+/*our food start*/
+.food{
+	background-color: #AF1E1E;
+}
+
+.h1{
+	font-family: BrandonGrotesque-Bold;
+	
+}
+
+.food{
+	padding: 50px 0;
+
+}
+.food-wrapper
+.food-article h1{
+	font-family: BrandonGrotesque-Light;
+	color:white;
+	font-size: 50px;
+	margin-bottom: 18px;
+	text-align: center;
+}
+.food-article p{
+	font-size: 20px;
+    color:white;
+}
+
+.food-img img{
+	margin-top: 25px;
+}
+
+/*our food  end*/
+/*signature start*/
+
+.signature{
+	background-image: url(../images/3rd.jpg);
+	background-repeat: no-repeat;
+    background-position-x: center;
+    margin-top: :10px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+}
+
+.h1{
+	font-family: BrandonGrotesque-Bold;
+	
+	
+}
+
+.signature{
+	padding-bottom:10px; 
+	
+
+}
+.signature-wrapper,
+.signature-article h1{
+	font-family: BrandonGrotesque-Light;
+	color:white;
+	font-size: 50px;
+	margin-bottom: 28px;
+	text-align: center;
+}
+.signature-article p{
+	font-size: 20px;
+    color:white;
+    text-align: center;
+}
+.signature-img img{
+      
+	}
+/*signature end*/
+
+/*our chef start*/
+.chef{
+	background-color: #AF1E1E;
+}
+
+.h1{
+	font-family: BrandonGrotesque-Bold;
+	
+}
+
+.chef{
+	padding: 50px 0;
+
+}
+.chef-wrapper
+.chef-article h1{
+	font-family: BrandonGrotesque-Light;
+	color:white;
+	font-size: 50px;
+	margin-bottom: 18px;
+	text-align: center;
+}
+.chef-article p{
+	font-size: 20px;
+    color:white;
+}
+
+.chef-img img{
+	margin-top: 25px;
+}
+
+/*chef end*/
+/*menu header start*/
+
+/*service start*/
+
+.menu{
+
+	   
+
+}
+.tosta-breads,.broad-platter,.garlic,.salt,.beef,.duck{
+	width: 43%;
+	float: left;
+	margin: 20px 0;
+}
+.service-logo{
+	    width: 18%;
+    float: left;
+}
+.service-logo img{
+	width: 100%;
+
+}
+.menu-article{
+	    width: 74%;
+    float: right;
+}
+.service-article h2{
+	 font-family:BrandonGrotesque-Medium ;
+	 font-size: 22px;
+	 color: #222222;
+	 margin-bottom: 0;
+    margin-top: 0;
+}
+.menu-article p{}
+
+.tosta-breads,.duck,.salt{
+
+	float: left;
+}
+
+.garlic, .beef,.broad-platter{
+	margin-right: 70px;
+
+	float: right;
+}
+
+/*service end*/
+
+
+/*client start*/
+
+.wrapper{
+     
+}
+.stay{
+	background-color: #FAFAFA;
+	padding: 50px 0;
+}
+.stay-header{
+	    text-align: center;
+}
+.stay-header h1{
+	
+	font-size: 50px;
+	color: #ffc107;
+	margin: 0;
+
+}
+
+.client-header p{
+	margin: 0;
+}
+
+
+
+/*client end*/
+
+
+
+
+/*support start*/
+.support{
+	margin-top: 20px;
+	text-align: center;
+	padding: 50px 0;
+	background-color: #010101;
+}
+.support-wrapper{
+
+}
+
+
+
+
+
+/*footer start*/
+footer{
+	color: #ffffff;
+	background-color: black;
+	    padding-bottom: 40px;
+	    padding-top: 60px;
+
+
+}
+.contact{
+
+}
+.address p{
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: 1px;
+	
+}
+
+
+/*footer end*/
+
+
+
+
+
+
